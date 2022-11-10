@@ -1,0 +1,18 @@
+{
+  "name": "hedera_foundry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npx solc --bin contracts/*.sol -o binaries; npm run build; node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@hashgraph/sdk": "^2.18.5"
+  }
+}

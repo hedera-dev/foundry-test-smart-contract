@@ -18,7 +18,7 @@ const client = Client.forTestnet().setOperator(operatorAccountId, operatorPrivat
 client.setDefaultMaxTransactionFee(new Hbar(100));
 
 // read the bytecode
-const bytecode = fs.readFileSync("binaries/contracts_Counter_sol_Counter.bin");
+const bytecode = fs.readFileSync("binaries/contracts_TodoList_sol_TodoList.bin");
 
 const hederaFoundryExample = async () => {    
     // Deploy contract

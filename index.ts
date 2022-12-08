@@ -12,6 +12,7 @@ if (accountIdString === undefined || privateKeyString === undefined ) { throw ne
 
  
 const operatorAccountId = AccountId.fromString(accountIdString);
+const address = operatorAccountId.toSolidityAddress();
 const operatorPrivateKey = PrivateKey.fromString(privateKeyString);
  
 const client = Client.forTestnet().setOperator(operatorAccountId, operatorPrivateKey);
@@ -26,6 +27,7 @@ const hederaFoundryExample = async () => {
     const [contractId] = await deployContract(client, bytecode, gasLimit);
     console.log(`Check it out on Hashscan!`);
     console.log(`https://hashscan.io/testnet/contract/${contractId}`);
+    console.log(address);
 
     client.close();
 }

@@ -1,5 +1,5 @@
 # Test Smart Contracts on Hedera using Foundry
-A Hedera project with a sample smart contract that uses Foundry to write unit tests in Solidity to test smart contracts
+A Hedera project with a sample smart contract that uses Foundry to write unit tests in Solidity to test smart contracts. This is a project utilizing TypeScript.
 
 ## Tutorial
 This repo pertains to the tutorial:

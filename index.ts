@@ -23,7 +23,7 @@ const bytecode = fs.readFileSync("binaries/contracts_TodoList_sol_TodoList.bin")
 
 const hederaFoundryExample = async () => {    
     // Deploy contract
-    const gasLimit = 1000000;
+    const gasLimit = 3_000_000;
     const [contractId] = await deployContract(client, bytecode, gasLimit);
     console.log(`Check it out on Hashscan!`);
     console.log(`https://hashscan.io/testnet/contract/${contractId}`);

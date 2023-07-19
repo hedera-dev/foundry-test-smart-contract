@@ -8,7 +8,11 @@ This repo pertains to the tutorial:
 ```shell
 git clone git@github.com:a-ridley/hedera-smart-contract-testing-with-foundry.git
 ```
+## Usage
 
+1. Execute ```npm i```
+2. Execute ```npm run start``` to run the project
+   
 ## Prerequisites
 
 ### Hedera Testnet account

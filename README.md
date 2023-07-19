@@ -11,7 +11,7 @@ A Hedera project template for building and testing Solidity Smart Contracts usin
 
 1. Clone this repo
     ```shell
-    git clone git@github.com:a-ridley/hedera-smart-contract-testing-with-foundry.git
+    git clone git@github.com:hedera-dev/hedera-smart-contract-testing-with-foundry.git
     ```
 2. Execute ```npm i```
 3. Add a `.env` file in the root directory with your Hedera Portal Account Credentials
